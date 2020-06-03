@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>story</name>
+    <events>
+        <event-block sid="607393602295472">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="280322808287005" type="System">
+                    <param id="0" name="Variable">select</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="961479054883825" type="Sprite37">
+                    <param id="0" name="Animation">&quot;ภารโรง&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block any="1" sid="332456693673349">
+                    <conditions>
+                        <condition id="4" name="On finished" sid="190359153070070" type="Sprite37">
+                            <param id="0" name="Animation">&quot;ภารโรง&quot;</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="175241041662486" type="Keyboard">
+                            <param id="0" name="Key">32</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="589242136480580" type="TiledBackground4">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="398397654998237" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="432809674583961" type="System">
+                            <param id="0" name="Layout">gpC</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="226852891880316">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="604163605009426" type="System">
+                    <param id="0" name="Variable">select</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="191897166239776" type="Sprite37">
+                    <param id="0" name="Animation">&quot;รำ&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block any="1" sid="318434644788840">
+                    <conditions>
+                        <condition id="4" name="On finished" sid="852569069659866" type="Sprite37">
+                            <param id="0" name="Animation">&quot;รำ&quot;</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="669759733265267" type="Keyboard">
+                            <param id="0" name="Key">32</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="388993335319826" type="TiledBackground4">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="398494689257926" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="437969802648154" type="System">
+                            <param id="0" name="Layout">gpP</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="188037657154550">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="287766145978687" type="System">
+                    <param id="0" name="Variable">select</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="691776133841934" type="Sprite37">
+                    <param id="0" name="Animation">&quot;ยาม&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block any="1" sid="607492498930454">
+                    <conditions>
+                        <condition id="4" name="On finished" sid="109352656908023" type="Sprite37">
+                            <param id="0" name="Animation">&quot;ยาม&quot;</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="308246268327587" type="Keyboard">
+                            <param id="0" name="Key">32</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="911548068125539" type="TiledBackground4">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="341838409920582" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="503994326048283" type="System">
+                            <param id="0" name="Layout">gpK</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="736777539986476">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="844427314932729" type="System">
+                    <param id="0" name="Variable">select</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="250113999368393" type="Sprite37">
+                    <param id="0" name="Animation">&quot;ผอ&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block any="1" sid="346770220546960">
+                    <conditions>
+                        <condition id="4" name="On finished" sid="337331666495599" type="Sprite37">
+                            <param id="0" name="Animation">&quot;ผอ&quot;</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="412922151783464" type="Keyboard">
+                            <param id="0" name="Key">32</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="143072056334138" type="TiledBackground4">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="735576717195944" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="883739167765929" type="System">
+                            <param id="0" name="Layout">gpW</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="972647902391980">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="190105220418953" type="System">
+                    <param id="0" name="Variable">select</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="830429817843367" type="Sprite37">
+                    <param id="0" name="Animation">&quot;เด็ก&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block any="1" sid="505973228267486">
+                    <conditions>
+                        <condition id="4" name="On finished" sid="706644820631833" type="Sprite37">
+                            <param id="0" name="Animation">&quot;เด็ก&quot;</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="333268735210316" type="Keyboard">
+                            <param id="0" name="Key">32</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="726622407692171" type="TiledBackground4">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="525593740212682" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="346415446304059" type="System">
+                            <param id="0" name="Layout">gpF</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="829548402979608">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="964479579630075" type="System" />
+            </conditions>
+            <actions>
+                <action id="33" name="Stop all" sid="508055190779337" type="Audio" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

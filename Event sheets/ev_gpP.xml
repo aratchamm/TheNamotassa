@@ -1,0 +1,1144 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>ev_gpP</name>
+    <events>
+        <include>muted</include>
+        <variable constant="0" name="key4" sid="347534736931452" static="0" type="number">0</variable>
+        <variable constant="0" name="text4" sid="518594156928489" static="0" type="text">text</variable>
+        <event-group description="" sid="785977895073611" title="mm15">
+            <sub-events>
+                <event-block sid="961391601045687">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="564699035506517" type="System" />
+                        <condition id="-7" name="Compare instance variable" sid="935118968378356" type="playP">
+                            <param id="0" name="Instance variable">NM</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;NM&quot;</param>
+                        </condition>
+                        <condition id="2" name="Key is down" sid="806178657810100" type="Keyboard">
+                            <param id="0" name="Key">83</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="494771464222787" type="playP">
+                            <param id="0" name="Animation">&quot;idle&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="540839271300482">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="649108314218682" type="Keyboard">
+                            <param id="0" name="Key">65</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="463192862539869" type="playP">
+                            <param id="0" name="Instance variable">NM</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;NM&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="425659977242132" type="playP">
+                            <param id="0" name="Animation">&quot;walkl&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="761875729282777" type="playP">
+                            <param id="0" name="Control">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="173683962078200">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="496016947468025" type="Keyboard">
+                            <param id="0" name="Key">68</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="719048325300022" type="playP">
+                            <param id="0" name="Instance variable">NM</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;NM&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="944443227821547" type="playP">
+                            <param id="0" name="Animation">&quot;walkr&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action behavior="Platform" id="7" name="Simulate control" sid="325865376015715" type="playP">
+                            <param id="0" name="Control">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="225446458897064">
+                    <conditions>
+                        <condition id="2" inverted="1" name="Key is down" sid="324182008593076" type="Keyboard">
+                            <param id="0" name="Key">65</param>
+                        </condition>
+                        <condition id="2" inverted="1" name="Key is down" sid="203754127476966" type="Keyboard">
+                            <param id="0" name="Key">68</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="812665250280564" type="playP">
+                            <param id="0" name="Instance variable">NM</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;NM&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="394397326137507" type="playP">
+                            <param id="0" name="Animation">&quot;idle&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="123480632876526" title="lift4">
+            <sub-events>
+                <event-block sid="879575054080164">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="664676117887995" type="playP">
+                            <param id="0" name="Object">Sprite11</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="965365347096033" type="Sprite14">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="827844470878440">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="826523433876537" type="playP">
+                            <param id="0" name="Object">Sprite11</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="496960181649819" type="Sprite14">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="457994872653707">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="902655623179875" type="playP">
+                            <param id="0" name="Object">Sprite12</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="838478631570494" type="Sprite16">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="511561254079134">
+                    <conditions>
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="983506192279700" type="playP">
+                            <param id="0" name="Object">Sprite12</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="733506476171260" type="Sprite16">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="897966272339323">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="676874372579114" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="104535509579491" type="SpriteFont">
+                    <param id="0" name="Text">text</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="247055966917271">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="236016681889920" type="SpriteFont">
+                    <param id="0" name="Instance variable">txt</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="410173066861676" type="SpriteFont">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="102623875735370">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="118163924730882" type="playP">
+                    <param id="0" name="Object">f3</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="697750486112574" type="Keyboard">
+                    <param id="0" name="Key">83</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="744963858928291" type="playP">
+                    <param id="0" name="Object">f2</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="860201920779775" type="f2">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="665565040486148" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="252620563159333" type="f2">
+                    <param id="0" name="Collisions">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="362185594086236">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="889134468388247" type="playP">
+                    <param id="0" name="Object">f2</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="541232970669144" type="Keyboard">
+                    <param id="0" name="Key">87</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="655632431495637" type="playP">
+                    <param id="0" name="Object">f3</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="879466919020939">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="653053101119277" type="playP">
+                    <param id="0" name="Object">f2</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="516684259391042" type="Keyboard">
+                    <param id="0" name="Key">83</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="895891430809416" type="playP">
+                    <param id="0" name="Object">f1</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="871250478579552">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="366901738182816" type="playP">
+                    <param id="0" name="Object">f1</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="164451763627596" type="Keyboard">
+                    <param id="0" name="Key">87</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="911992937139911" type="playP">
+                    <param id="0" name="Object">f2</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="147841696227940" type="f2">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="695564812187045" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="160002274495453" type="f2">
+                    <param id="0" name="Collisions">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="955535198178737">
+            <conditions>
+                <condition id="-3" name="Is on-screen" sid="246195056853853" type="Sprite24" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block any="1" sid="461985007591753">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="382364702744015" type="System">
+                            <param id="0" name="First value">Sprite24.Sine.CyclePosition</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Second value">0.25</param>
+                        </condition>
+                        <condition id="-8" name="Compare two values" sid="640419875896767" type="System">
+                            <param id="0" name="First value">Sprite24.Sine.CyclePosition</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Second value">0.75</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Set mirrored" sid="589262172127299" type="Sprite24">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="288860235183521">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="366452740661484" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Set mirrored" sid="639717961353826" type="Sprite24">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="498643639654696">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="964750351619739" type="Sprite24">
+                    <param id="0" name="Object">playP</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="717760074548811" type="Audio">
+                    <param id="0" name="Audio file">133674__klankbeeld__horror-laugh-original-132802-nanakisan-evil-laugh-08</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action behavior="Flash" id="0" name="Flash" sid="269132077176831" type="playP">
+                    <param id="0" name="&apos;On&apos; time">0.1</param>
+                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                    <param id="2" name="Duration">1.0</param>
+                </action>
+                <action id="-16" name="Wait" sid="435103035184111" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="593957459870161" type="System">
+                    <param id="0" name="Layout">goP</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="254621411324225">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="251107293688317" type="playP">
+                    <param id="0" name="Object">dl1B</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="542393104637509" type="Keyboard">
+                    <param id="0" name="Key">87</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="169822568045290" type="TiledBackground19">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="232317829790987" type="Sprite94">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="827473536269804" type="Sprite92">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="253244790741156" type="Sprite93">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="473993906632345" type="TiledBackground18">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="878651313447708" type="dl1B">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-3" name="Create object" sid="717028236834465" type="System">
+                    <param id="0" name="Object to create">dl1A</param>
+                    <param id="1" name="Layer">2</param>
+                    <param id="2" name="X">1607</param>
+                    <param id="3" name="Y">360</param>
+                </action>
+                <action id="-3" name="Create object" sid="231230144555435" type="System">
+                    <param id="0" name="Object to create">dl1A</param>
+                    <param id="1" name="Layer">2</param>
+                    <param id="2" name="X">3979</param>
+                    <param id="3" name="Y">360</param>
+                </action>
+                <action id="-3" name="Create object" sid="341725948904687" type="System">
+                    <param id="0" name="Object to create">wr</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">4391</param>
+                    <param id="3" name="Y">272</param>
+                </action>
+                <action id="-3" name="Create object" sid="597515670318833" type="System">
+                    <param id="0" name="Object to create">Sprite10</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">2260.227</param>
+                    <param id="3" name="Y">355</param>
+                </action>
+                <action id="-15" name="Set visible" sid="892359691120001" type="Sprite136">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="963367610285681">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="652175134257579" type="playP">
+                    <param id="0" name="Object">dl2b</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="642628988280744" type="Keyboard">
+                    <param id="0" name="Key">87</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="636329573677380" type="TiledBackground16">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="217630256968160" type="Sprite91">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="828089747192791" type="Sprite100">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Create object" sid="167725630702150" type="System">
+                    <param id="0" name="Object to create">dl1A</param>
+                    <param id="1" name="Layer">2</param>
+                    <param id="2" name="X">1019</param>
+                    <param id="3" name="Y">955</param>
+                </action>
+                <action id="-3" name="Create object" sid="445295512705724" type="System">
+                    <param id="0" name="Object to create">wr</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">2191</param>
+                    <param id="3" name="Y">851</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="372892002396172">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="612015761888797" type="playP">
+                    <param id="0" name="Object">dl2b2</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="147722756044510" type="Keyboard">
+                    <param id="0" name="Key">87</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="928240926841118" type="TiledBackground17">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-3" name="Create object" sid="142703037416860" type="System">
+                    <param id="0" name="Object to create">dl1A</param>
+                    <param id="1" name="Layer">2</param>
+                    <param id="2" name="X">3572</param>
+                    <param id="3" name="Y">953</param>
+                </action>
+                <action id="-3" name="Create object" sid="606922827535732" type="System">
+                    <param id="0" name="Object to create">wr</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">4229</param>
+                    <param id="3" name="Y">853</param>
+                </action>
+                <action id="-3" name="Create object" sid="794571884994426" type="System">
+                    <param id="0" name="Object to create">wl</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">2610</param>
+                    <param id="3" name="Y">939</param>
+                </action>
+                <action id="-15" name="Set visible" sid="188592247316678" type="Sprite101">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="205831503292172">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="777466110463042" type="playP">
+                    <param id="0" name="Object">dl1A</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="378631487994151" type="Keyboard">
+                    <param id="0" name="Key">83</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="283266186186208" type="dl1A" />
+                <action id="-15" name="Set visible" sid="507329446276562" type="TiledBackground19">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="302780833115057" type="Sprite94">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="635020231206715" type="Sprite92">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="490023297475032" type="Sprite93">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="701633016128145" type="TiledBackground18">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="662851127800992" type="dl1B">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="483470017288739" type="TiledBackground16">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="307734806963861" type="TiledBackground17">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="858801037606713" type="Sprite91">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="519001231021326" type="dl2b">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="696473773106419" type="wl" />
+                <action id="-9" name="Destroy" sid="362983274524938" type="wr" />
+                <action id="11" name="Set collisions enabled" sid="967469756377561" type="Sprite24">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="471708902107951" type="Sprite24">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-2" name="Set Y" sid="836326256785222" type="Sprite24">
+                    <param id="0" name="Y">379</param>
+                </action>
+                <action id="-15" name="Set visible" sid="152018847886888" type="Sprite100">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="670310600257237" type="Sprite91">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="691116827986091" type="Sprite101">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="357776209298367" type="Sprite99">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="444754784440715" type="Sprite103">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="347817877805088" type="Sprite10" />
+                <action id="-15" name="Set visible" sid="889834971594709" type="Sprite136">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="275179681109660">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="799905064603776" type="playP">
+                    <param id="0" name="Object">dl1B</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="605695355758128" type="Keyboard">
+                    <param id="0" name="Key">83</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="267615528238543" type="dl1A" />
+            </actions>
+        </event-block>
+        <event-block sid="521357461386648">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="173298387542303" type="playP">
+                    <param id="0" name="Object">Sprite91</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="940241900217582" type="Keyboard">
+                    <param id="0" name="Key">69</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="874244454794699" type="Sprite91">
+                    <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="428641896928482">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="208657785507379" type="playP">
+                    <param id="0" name="Object">Sprite100</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="461929697479165" type="Keyboard">
+                    <param id="0" name="Key">69</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="941527671396919" type="Sprite100">
+                    <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="197009789164640">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="705256378248898" type="playP">
+                    <param id="0" name="Object">Sprite101</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="830160709546175" type="Keyboard">
+                    <param id="0" name="Key">69</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="343735204997707" type="Sprite101">
+                    <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="838441050533651">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="923622575873732" type="System" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="605232410138487" type="floorr4">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="988910572336606" type="floorr5">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="986597965062219" type="floorr3">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="374273554427806" type="playP">
+                    <param id="0" name="X">random(110,4795)</param>
+                    <param id="1" name="Y">choose(439.141,1018.96,1604.356)</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="683295915876557">
+                    <conditions>
+                        <condition id="-16" name="Pick random instance" sid="603015142116749" type="System">
+                            <param id="0" name="Object">Sprite51</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="214353877298201" type="Sprite51">
+                            <param id="0" name="Object">pra2</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="952026694063043" type="pra2">
+                            <param id="0" name="Collisions">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="701500663090441">
+                    <conditions>
+                        <condition id="-16" name="Pick random instance" sid="905466333159804" type="System">
+                            <param id="0" name="Object">random_key</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="368313202205782" type="random_key">
+                            <param id="0" name="Object">Sprite99</param>
+                            <param id="1" name="Layer">2</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="942110397092250" type="Sprite99">
+                            <param id="0" name="Collisions">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="104742739104851">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="923332337972779" type="playP">
+                    <param id="0" name="Object">pra2</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="624221596728599" type="Keyboard">
+                    <param id="0" name="Key">69</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="379281196251269" type="pra2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-26" name="Move to layer" sid="915830389841231" type="pra2">
+                    <param id="0" name="Layer">7</param>
+                </action>
+                <action id="-16" name="Wait" sid="641296206295180" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="-9" name="Destroy" sid="455635461509768" type="pra2" />
+                <action id="-7" name="Set size" sid="645257232648981" type="pra2">
+                    <param id="0" name="Width">43.526</param>
+                    <param id="1" name="Height">63.112</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="465701931828285" type="Sprite50">
+                    <param id="0" name="Opacity">Sprite50.Opacity-6</param>
+                </action>
+                <action id="-9" name="Destroy" sid="788377332012424" type="Sprite88" />
+            </actions>
+        </event-block>
+        <event-block sid="535505197645457">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="559853827233680" type="playP">
+                    <param id="0" name="Object">pra3</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="465024449033214" type="Keyboard">
+                    <param id="0" name="Key">69</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="250937306832142" type="pra3">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-26" name="Move to layer" sid="421399090923650" type="pra3">
+                    <param id="0" name="Layer">7</param>
+                </action>
+                <action id="-16" name="Wait" sid="262701462392564" type="System">
+                    <param id="0" name="Seconds">2</param>
+                </action>
+                <action id="-9" name="Destroy" sid="993792792327345" type="pra3" />
+                <action id="-7" name="Set size" sid="748509708868393" type="pra3">
+                    <param id="0" name="Width">43.526</param>
+                    <param id="1" name="Height">63.112</param>
+                </action>
+                <action id="11" name="Set collisions enabled" sid="310156658263071" type="pra3">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="499830236173098" title="time2">
+            <sub-events>
+                <event-block sid="444183536478951">
+                    <conditions>
+                        <condition id="-7" name="Compare time" sid="297321761490688" type="System">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Time (seconds)">60</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="889328849832250" type="floorr5">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="488109489382340">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="231540847823099" type="playP">
+                                    <param id="0" name="Object">dl1B</param>
+                                </condition>
+                                <condition id="2" name="Key is down" sid="484401087527122" type="Keyboard">
+                                    <param id="0" name="Key">87</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="11" name="Set collisions enabled" sid="721748745774431" type="Sprite24">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="701051249608176" type="Sprite24">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="574446261770455">
+                    <conditions>
+                        <condition id="-7" name="Compare time" sid="715001477913792" type="System">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Time (seconds)">120</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="898171209421809" type="floorr5" />
+                        <action id="-15" name="Set visible" sid="156453987345739" type="floorr4">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="173313554527403">
+                            <conditions>
+                                <condition id="11" name="Collisions enabled" sid="217596772403383" type="pra3" />
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="408810615668776">
+                                    <conditions>
+                                        <condition id="-6" name="Every X seconds" sid="858620214984055" type="System">
+                                            <param id="0" name="Interval (seconds)">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-3" name="Create object" sid="791665314299454" type="System">
+                                            <param id="0" name="Object to create">Sprite97</param>
+                                            <param id="1" name="Layer">2</param>
+                                            <param id="2" name="X">random(500,4500)</param>
+                                            <param id="3" name="Y">0</param>
+                                        </action>
+                                        <action id="-3" name="Create object" sid="353826309893961" type="System">
+                                            <param id="0" name="Object to create">Sprite54</param>
+                                            <param id="1" name="Layer">2</param>
+                                            <param id="2" name="X">random(500,4500)</param>
+                                            <param id="3" name="Y">0</param>
+                                        </action>
+                                        <action behavior="Bullet" id="0" name="Set speed" sid="567502234732178" type="Sprite97">
+                                            <param id="0" name="Speed">choose(200,300,400)</param>
+                                        </action>
+                                        <action behavior="Bullet" id="0" name="Set speed" sid="651916018058674" type="Sprite54">
+                                            <param id="0" name="Speed">choose(200,300,400)</param>
+                                        </action>
+                                        <action id="5" name="Set frame" sid="786018145053558" type="Sprite97">
+                                            <param id="0" name="Frame number">choose(0,1)</param>
+                                        </action>
+                                        <action id="5" name="Set frame" sid="747408582941246" type="Sprite54">
+                                            <param id="0" name="Frame number">choose(0,1)</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="376479081667777" type="Sprite97">
+                                            <param id="0" name="Angle">90</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="752219383949211" type="Sprite54">
+                                            <param id="0" name="Angle">90</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="415046876360828">
+                            <conditions>
+                                <condition id="11" inverted="1" name="Collisions enabled" sid="807532641217192" type="pra3" />
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="292250896492155">
+                                    <conditions>
+                                        <condition id="-6" name="Every X seconds" sid="578209704194389" type="System">
+                                            <param id="0" name="Interval (seconds)">5</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-3" name="Create object" sid="127702988380166" type="System">
+                                            <param id="0" name="Object to create">Sprite97</param>
+                                            <param id="1" name="Layer">2</param>
+                                            <param id="2" name="X">random(500,4500)</param>
+                                            <param id="3" name="Y">0</param>
+                                        </action>
+                                        <action id="-3" name="Create object" sid="140811658553040" type="System">
+                                            <param id="0" name="Object to create">Sprite54</param>
+                                            <param id="1" name="Layer">2</param>
+                                            <param id="2" name="X">random(500,4500)</param>
+                                            <param id="3" name="Y">0</param>
+                                        </action>
+                                        <action behavior="Bullet" id="0" name="Set speed" sid="622999852790052" type="Sprite97">
+                                            <param id="0" name="Speed">choose(200,300,400)</param>
+                                        </action>
+                                        <action behavior="Bullet" id="0" name="Set speed" sid="961000240774456" type="Sprite54">
+                                            <param id="0" name="Speed">choose(200,300,400)</param>
+                                        </action>
+                                        <action id="5" name="Set frame" sid="371879172809541" type="Sprite97">
+                                            <param id="0" name="Frame number">choose(0,1)</param>
+                                        </action>
+                                        <action id="5" name="Set frame" sid="938449267683076" type="Sprite54">
+                                            <param id="0" name="Frame number">choose(0,1)</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="683269230008594" type="Sprite97">
+                                            <param id="0" name="Angle">90</param>
+                                        </action>
+                                        <action behavior="Bullet" id="3" name="Set angle of motion" sid="732692674721837" type="Sprite54">
+                                            <param id="0" name="Angle">90</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="629859956718435">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="815501726316527" type="playP">
+                                    <param id="0" name="Object">Sprite97</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="281501242508136" type="Audio">
+                                    <param id="0" name="Audio file">133674__klankbeeld__horror-laugh-original-132802-nanakisan-evil-laugh-08</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                                <action behavior="Flash" id="0" name="Flash" sid="732558785399031" type="playP">
+                                    <param id="0" name="&apos;On&apos; time">0.1</param>
+                                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                                    <param id="2" name="Duration">2.0</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="188718429555443" type="System">
+                                    <param id="0" name="Layout">goP</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="118410031897390">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="176733603866245" type="playP">
+                                    <param id="0" name="Object">Sprite54</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="117841645700958" type="Audio">
+                                    <param id="0" name="Audio file">133674__klankbeeld__horror-laugh-original-132802-nanakisan-evil-laugh-08</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                                <action behavior="Flash" id="0" name="Flash" sid="238482200541505" type="playP">
+                                    <param id="0" name="&apos;On&apos; time">0.1</param>
+                                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                                    <param id="2" name="Duration">2.0</param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="175342201382547" type="System">
+                                    <param id="0" name="Layout">goP</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="748390854726861">
+                            <conditions>
+                                <condition id="-16" name="Pick random instance" sid="709269999997002" type="System">
+                                    <param id="0" name="Object">Sprite57</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="165371183744327" type="Sprite57">
+                                    <param id="0" name="Object">pra3</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="398650514964457" type="pra3">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="738757457046468">
+                    <conditions>
+                        <condition id="-7" name="Compare time" sid="440155014068186" type="System">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Time (seconds)">180</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="968917302792482" type="floorr3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="647042764624558" type="floorr4" />
+                        <action id="-2" name="Go to layout" sid="505166901355717" type="System">
+                            <param id="0" name="Layout">school</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="522819803233759">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="355806194005294" type="playP">
+                    <param id="0" name="Object">Sprite91</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="270203262969696" type="Keyboard">
+                    <param id="0" name="Key">69</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="685277862803195" type="Sprite99">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="117298003291986" type="Sprite99">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="447112246021330">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="911055466279594" type="playP">
+                    <param id="0" name="Object">Sprite100</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="814619115722919" type="Keyboard">
+                    <param id="0" name="Key">69</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="155985365405934" type="Sprite99">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="827309730178546" type="Sprite99">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="305013190710878">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="489672754991121" type="playP">
+                    <param id="0" name="Object">Sprite101</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="398502128615265" type="Keyboard">
+                    <param id="0" name="Key">69</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="759868296103725" type="Sprite99">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="110158370157769" type="Sprite99">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="844548928655178">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="610279433578644" type="System">
+                    <param id="0" name="Interval (seconds)">10</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="939443043489390" type="playP">
+                    <param id="0" name="Object">Sprite10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="537389063726144" type="Sprite103">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="824355320779803" type="Sprite103">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="421227531762625">
+            <conditions>
+                <condition id="4" name="On finished" sid="205718339144928" type="Sprite103">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="386095856672597" type="Sprite103">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="141463806345773">
+            <conditions>
+                <condition id="2" name="Key is down" sid="856012678832192" type="Keyboard">
+                    <param id="0" name="Key">77</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="539117284405778" type="Sprite105">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="373395721915770" type="MAPp">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="183209296605160" type="map_open">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="849380108369491">
+            <conditions>
+                <condition id="3" name="On key released" sid="800123429888354" type="Keyboard">
+                    <param id="0" name="Key">77</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="234672363462150" type="Sprite105">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="879766421783163" type="map_open">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="149789770906986" type="MAPp">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="558717458490803">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="772149945013950" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="834527716449629" type="Sprite105">
+                    <param id="0" name="X">mapP.X+(mapP.Width/100)*(playP.X/(LayoutWidth/100))</param>
+                    <param id="1" name="Y">mapP.Y+(mapP.Height/100)*(playP.Y/(LayoutHeight/100))</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="452437133711074">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="352901903088422" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="124867051792126" type="Sprite105">
+                    <param id="0" name="X">mapP.X+(mapP.Width/100)*(playP.X/(LayoutWidth/100))</param>
+                    <param id="1" name="Y">mapP.Y+(mapP.Height/100)*(playP.Y/(LayoutHeight/100))</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="313699122058563">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="936668800439474" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">1</param>
+                    <param id="2" name="Object clicked">SpriteFont11</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="375440480694986" type="System">
+                    <param id="0" name="Layout">mn</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="473178131093785">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="707944100724806" type="playP">
+                    <param id="0" name="Object">dl1A</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="346048595676063" type="playP">
+                    <param id="0" name="Layer">2</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="883686413825770" type="dl1A">
+                    <param id="0" name="Opacity">50</param>
+                </action>
+                <action id="-24" name="Move to top" sid="121753910673577" type="playP" />
+                <action id="-26" name="Move to layer" sid="607522596641196" type="dl1A">
+                    <param id="0" name="Layer">3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="202140858262797">
+            <conditions>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="926830306469687" type="playP">
+                    <param id="0" name="Object">dl1A</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Move to layer" sid="781008817797189" type="playP">
+                    <param id="0" name="Layer">3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="373116489760680">
+            <conditions>
+                <condition id="-9" name="Is visible" sid="500831821495463" type="Sprite99" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="617361831859498" type="Audio">
+                    <param id="0" name="Audio file">133674__klankbeeld__horror-laugh-original-132802-nanakisan-evil-laugh-08</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="612845822629071">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="840737421443074" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="120450901816835" type="Audio">
+                    <param id="0" name="Audio file">172865__haralddeluca__horror-ambiance-44</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="231682480863761">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="784495892811814" type="System" />
+            </conditions>
+            <actions>
+                <action id="33" name="Stop all" sid="954314678299879" type="Audio" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

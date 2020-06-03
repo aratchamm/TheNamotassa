@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>ev_mn</name>
+    <events>
+        <event-block sid="439384475739890">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="317743630876752" type="Mouse">
+                    <param id="0" name="Object">st</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="557010930457590" type="st2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="239918764836416">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="974353374980619" type="Mouse">
+                    <param id="0" name="Object">st</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="436255263180400" type="st2">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="675189977634826">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="966540306887791" type="Mouse">
+                    <param id="0" name="Object">cr</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="615318041823404" type="cr2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="742400881511171">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="617464556089320" type="Mouse">
+                    <param id="0" name="Object">cr</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="753654661724690" type="cr2">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="208634064337693">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="440101412770237" type="Mouse">
+                    <param id="0" name="Object">ex</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="325546832468066" type="ex2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="436034457406684">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="807360338752103" type="Mouse">
+                    <param id="0" name="Object">ex</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="429081926346201" type="ex2">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="155806219066116">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="802102523506836" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ex2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Close" sid="544391925965552" type="Browser" />
+            </actions>
+        </event-block>
+        <event-block sid="994544527439574">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="340304631330698" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">st2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="271591469091084" type="System">
+                    <param id="0" name="Layout">manuall</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="637761313058902">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="621113528930947" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">cr2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="220327294197475" type="System">
+                    <param id="0" name="Layout">credit</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="500166900809718">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="503185015655936" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="321027042867565" type="Audio">
+                    <param id="0" name="Audio file">bensoundcreepy</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

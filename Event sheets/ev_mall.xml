@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>ev_mall</name>
+    <events>
+        <variable constant="0" name="select" sid="241666453054596" static="0" type="number">0</variable>
+        <event-block sid="191573420295708">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="359321154692662" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">bk</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="457826649659048" type="System">
+                    <param id="0" name="Layout">mn</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="443381211753497" title="overตลค">
+            <sub-events>
+                <event-block sid="111662045801906">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="814916262822638" type="Mouse">
+                            <param id="0" name="Object">slC</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="896044965830370" type="skC">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="202810311033562">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="114381357414581" type="Mouse">
+                            <param id="0" name="Object">slC</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="544724408247390" type="skC">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="321511033057294">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="479795075481511" type="Mouse">
+                            <param id="0" name="Object">slF</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="162310257569197" type="skF">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="244103051342335">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="979171379502257" type="Mouse">
+                            <param id="0" name="Object">slF</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="665883529267412" type="skF">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="547189252613931">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="438306056255460" type="Mouse">
+                            <param id="0" name="Object">slK</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="514855969841032" type="skK">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="471650813383512">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="645551095971349" type="Mouse">
+                            <param id="0" name="Object">slK</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="228497111309860" type="skK">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="796050653501163">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="819171125008952" type="Mouse">
+                            <param id="0" name="Object">slP</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="451544568477143" type="skP">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="267601171516377">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="370601804052866" type="Mouse">
+                            <param id="0" name="Object">slP</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="869310209834100" type="skP">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="595825080636562">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="264028952651238" type="Mouse">
+                            <param id="0" name="Object">slW</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="209812970343894" type="skW">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="782340562382287">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="641582414938467" type="Mouse">
+                            <param id="0" name="Object">slW</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="416743718026413" type="skW">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="310615585311419" title="overtext">
+            <sub-events>
+                <event-block sid="797206007576156">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="760221273150303" type="Mouse">
+                            <param id="0" name="Object">clare</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="440725908989742" type="clare3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="460382798241007">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="553146420022742" type="Mouse">
+                            <param id="0" name="Object">clare</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="260077361831703" type="clare3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="875823182888305">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="365507440834116" type="Mouse">
+                            <param id="0" name="Object">front</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="665705601610576" type="front3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="412859893498565">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="693723035964260" type="Mouse">
+                            <param id="0" name="Object">front</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="711225787479382" type="front3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="276559522490770">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="647307164962792" type="Mouse">
+                            <param id="0" name="Object">wave</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="877617143606019" type="wave3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="994241649345750">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="432391005773796" type="Mouse">
+                            <param id="0" name="Object">wave</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="288636942758922" type="wave3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="338969104843636">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="968140933910013" type="Mouse">
+                            <param id="0" name="Object">pang</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="275371233252480" type="pang3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="998326541643382">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="586603782561750" type="Mouse">
+                            <param id="0" name="Object">pang</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="287665974355280" type="pang3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="579338790264540">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="733610533339280" type="Mouse">
+                            <param id="0" name="Object">korn</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="436877436080588" type="korn3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="312947501801583">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="522625875951220" type="Mouse">
+                            <param id="0" name="Object">korn</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="685756303401846" type="korn3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="664176787471917" title="clicktext">
+            <sub-events>
+                <event-block sid="402138838578231">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="336734130803256" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">clare3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="656927969006995" type="System">
+                            <param id="0" name="Layout">story</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="434365668697312" type="System">
+                            <param id="0" name="Variable">select</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="799009647860441" type="System">
+                            <param id="0" name="Variable">select</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="916943854107688">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="861334921745860" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">pang3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="297672176021874" type="System">
+                            <param id="0" name="Layout">story</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="244651464243006" type="System">
+                            <param id="0" name="Variable">select</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="510921501756638" type="System">
+                            <param id="0" name="Variable">select</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="370303663574573">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="455162257831411" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">korn3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="846560008435384" type="System">
+                            <param id="0" name="Layout">story</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="987747492527738" type="System">
+                            <param id="0" name="Variable">select</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="675331870442090" type="System">
+                            <param id="0" name="Variable">select</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="914798578233929">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="608061706065848" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">wave3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="591910953088903" type="System">
+                            <param id="0" name="Layout">story</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="603375930375347" type="System">
+                            <param id="0" name="Variable">select</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="648913509119594" type="System">
+                            <param id="0" name="Variable">select</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="658186722545230">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="854088954550991" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">front3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="329791567768759" type="System">
+                            <param id="0" name="Layout">story</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="213206358593937" type="System">
+                            <param id="0" name="Variable">select</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="410262896918086" type="System">
+                            <param id="0" name="Variable">select</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="487637460244913" title="overtext2">
+            <sub-events>
+                <event-block sid="813992017731064">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="863334836870666" type="Mouse">
+                            <param id="0" name="Object">pang</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="691421186596001" type="slP">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="425801207981437">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="567114809989371" type="Mouse">
+                            <param id="0" name="Object">pang</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Stop" sid="523753323020767" type="slP" />
+                    </actions>
+                </event-block>
+                <event-block sid="630832250244186">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="581899064317226" type="Mouse">
+                            <param id="0" name="Object">clare</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="552352715538553" type="slC">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="130659358644709">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="223866559674216" type="Mouse">
+                            <param id="0" name="Object">clare</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Stop" sid="453245984370514" type="slC" />
+                    </actions>
+                </event-block>
+                <event-block sid="686769749273480">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="898148941048472" type="Mouse">
+                            <param id="0" name="Object">front</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="950665925194699" type="slF">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="294450972005045">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="612424816022400" type="Mouse">
+                            <param id="0" name="Object">front</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Stop" sid="670359252505314" type="slF" />
+                    </actions>
+                </event-block>
+                <event-block sid="288714356444693">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="108230403065013" type="Mouse">
+                            <param id="0" name="Object">wave</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="535248914167287" type="slW">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="882891591162153">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="259128811773401" type="Mouse">
+                            <param id="0" name="Object">wave</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Stop" sid="630145376881753" type="slW" />
+                    </actions>
+                </event-block>
+                <event-block sid="561910971775959">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="438634716316018" type="Mouse">
+                            <param id="0" name="Object">korn</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="562603057344201" type="slK">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="971448771782268">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="443316298386384" type="Mouse">
+                            <param id="0" name="Object">korn</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Stop" sid="114970562438777" type="slK" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

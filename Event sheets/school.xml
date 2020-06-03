@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>school</name>
+    <events>
+        <event-block sid="680708013979889">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="484594061007994" type="Mouse">
+                    <param id="0" name="Object">bm</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="926005288973451" type="bms">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="428555816120304">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="303240230753849" type="Mouse">
+                    <param id="0" name="Object">bm</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="344930209802118" type="bms">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="544132815387442">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="122787479077033" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">bms</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="154241757185330" type="System">
+                    <param id="0" name="Layout">mn</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="312671211957852">
+            <conditions>
+                <condition id="-25" name="On loader layout complete" sid="164432790583930" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="608436436744831" type="Audio">
+                    <param id="0" name="Audio file">412224__inspectorj__creepy-lullaby-a</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="258857613635382">
+            <conditions>
+                <condition id="-3" name="On end of layout" sid="204529363420118" type="System" />
+            </conditions>
+            <actions>
+                <action id="33" name="Stop all" sid="778937803107553" type="Audio" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
